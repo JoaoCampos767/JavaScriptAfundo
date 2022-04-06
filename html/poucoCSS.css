@@ -1,0 +1,19 @@
+h1{
+    font-size: 50;
+}
+
+.fundoVermelho{
+    background-color: rgb(209, 12, 12);
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+#txtPrincipal{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color:darkcyan;
+}
