@@ -1,5 +1,14 @@
-// Comentario de uma linha
+// Comentário de uma linha
+console.log('Linha 1')
 
 /*
-   Comentario de multiplas linhas
+ Comentário de
+ múltiplas linhas
 */
+console.log('Linha 2')
+
+/*
+ * Comentário de
+ * múliplas linhas
+ */
+console.log('Linha 3')

@@ -1,12 +1,12 @@
-// operador... rest(juntar)/spread(espalhar)
-// usar rest com parametro de função
+// operador ... rest(juntar)/spread(espalhar)
+// usar rest com parâmetro de função
 
 // usar spread com objeto
-const funcionario = { nome: "Joao", salario: 1254.99 };
-const clone = { ativo: true, ...funcionario };
-console.log(clone);
+const funcionario = { nome: 'Maria', salario: 12348.99 }
+const clone = { ativo: true, ...funcionario }
+console.log(clone)
 
-// usar spread com Array
-const grupoA = ["Joao", "Pedro", "Campos"];
-const grupoFinal = ["Alessa", ...grupoA, "Jose"];
-console.log(grupoFinal);
+// usar spread com array
+const grupoA = ['João', 'Pedro', 'Gloria']
+const grupoFinal = ['Maria', ...grupoA, 'Rafaela']
+console.log(grupoFinal)

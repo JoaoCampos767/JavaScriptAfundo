@@ -1,11 +1,11 @@
-const fs = require('fs');
+const fs = require('fs')
 
 const produto = {
-    nome: 'Joao',
-    preco: 1249.49,
+    nome: 'Celular',
+    preco: 1249.99,
     desconto: 0.15
 }
 
 fs.writeFile(__dirname + '/arquivoGerado.json', JSON.stringify(produto), err => {
-    console.log(err || 'Arquivo salvo!');
+    console.log(err || 'Arquivo salvo!')
 })

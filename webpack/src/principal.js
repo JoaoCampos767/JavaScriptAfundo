@@ -1,5 +1,5 @@
-import Pessoa from "./pessoa";
-import "./assets";
+import Pessoa from './pessoa'
+import './assets'
 
-const atendente = new Pessoa();
-console.log(atendente.cumprimentar());
+const atendente = new Pessoa
+console.log(atendente.cumprimentar())

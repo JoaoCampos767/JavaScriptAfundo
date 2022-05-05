@@ -1,6 +1,6 @@
 module.exports = {
-    bomDia: 'Bom dia ao Node!',
-    boaNoite(){
-        return 'Boa noite!'
+    bomDia: 'Bom dia',
+    boaNoite() {
+        return 'Boa noite'
     }
 }

@@ -1,5 +1,7 @@
+import './modulos/moduloA'
+
 export default class Pessoa {
-  cumprimentar() {
-    return "Bom dia!";
-  }
+    cumprimentar() {
+        return 'Bom dia!'
+    }
 }
